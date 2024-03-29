@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.header2{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    padding: 50px 0;
+}
+.header2 h1,p{
+    color: white;
+    padding: 10px 0;
+}
+.section-p1{
+    margin: 0 15px;
+}
+.pro {
+    flex-basis: 15%;
+    margin: 5px 40px;
+}
+/*boxes*/
+.boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+.boxes a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(70, 196, 70);
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.boxes a:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+.details h4,p{
+    padding: 30px 10px;
+}
+.service p{
+    color: black;
+}
+/* Product images*/
+.pro-images{
+    padding: 40px 80px;
+    margin-right: 50px;
+    display: flex;
+}
+.proimg-single{
+    width: 40%;
+}
+.proimg-container{
+    display: flex;
+    justify-content: space-between;
+}
+.proimg-group{
+    flex-basis: 23%;
+    cursor: pointer;
+}
+.pro-details{
+    width: 50%;
+    margin-left: 10%;
+}
+
+.pro-details select,input{
+    margin: 7px 5px;
+    padding: 3px;
+}
+.pro-details section{
+    display: block;
+}
+.pro-details input{
+    height: 50px;
+    width: 47px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 14px;
+}
+.pro-details input:focus{
+    outline: none;
+}
+.pro-details button{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.pro-details h3,span{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.products{
+    text-align: center;
+    margin: 30px 0;
+}
+.pro-container{
+    margin-top: 30px;
+}
+.p1{
+    color: black;
+}
+/* Media Query*/
+@media screen and (max-width:477px){
+    .pro-images {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .proimg-single {
+        width: 100%;
+        padding: 20px 30px ;
+    }
+    .pro-details {
+        width: 18rem;
+        margin-top: 30px;
+    }
+    .pro {
+        flex-basis: 20%;
+        margin: 5px 10px;
+    }
+    
+    .pro {
+        width: 30%;
+        min-width: 150px;
+        padding: 10px 6px;
+        gap: 10p5
+    }
+    .details h4{
+        padding: 10px 10px;
+    }
+    .pro-container {
+        margin-top: 10px;
+    }
+    .details h4, p {
+        padding: 20px 0px;
+        color: black;
+    }
+    .pro-container {
+        flex-wrap: nowrap;
+    }
+    .shop1{
+        margin-right: 30%;
+    }
+}

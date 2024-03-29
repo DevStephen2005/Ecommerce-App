@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+.Fashion{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.links{
+    display: flex;
+    column-gap: 40px;
+    position: absolute;
+    left: 50%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links a:hover{
+    background-color: blue;
+}
+.searchbar input{
+    padding: 13px;
+    width: 75%;
+    margin-top: 40px;
+    position: absolute;
+    left: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: medium;
+}
+.searchbar i{
+    position: absolute;
+    right: 14%;
+    bottom: 81%;
+}
+.product-images{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.image{
+    flex-basis: 25%;
+    padding-top: 40px;
+}
+.footer{
+padding: 40px;
+gap: 30px;
+text-align: center;
+background-color: black;
+color: white;
+}
+.media-links i{
+padding: 10px;
+column-gap: 10px;
+}
+.menu{
+position: absolute;
+right: 10%;
+top: 2%;
+color: white;
+cursor: pointer;
+display: none;
+font-size: 25px;
+font-weight: 600;
+}
+.side_navbar{
+background-color: black;
+color: white;
+height: 100%;
+width: 50%;
+position: fixed;
+top: 0;
+left: -60%;
+padding: 20px;
+transition: 2s;
+z-index: 1;
+}
+.side-links a{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+text-decoration: none;
+color: white;
+font-size: medium;
+}
+.side-links a:hover{
+background-color: blue;
+text-decoration: underline;
+}
+.xmark{
+text-align: right;
+}
+.xmark:hover{
+cursor: pointer;
+color: aqua;
+}
+.Fashion{
+    display: none;
+}
+.shop i{
+    position: absolute;
+    right: 25%;
+    top: 3%;
+    color: aqua;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    display: none;
+}
+/* Media Query*/
+@media screen and (max-width:477px){
+    .links {
+        display: none;
+    }
+    .navbar {
+        height: 60px;
+    }
+    .Fashion{
+        padding: 5px 10px;
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .shop i{
+        display: block;
+    }
+    .searchbar i{
+        position: absolute;
+        top: 16%;
+    }
+    .product-images{
+        justify-content: space-around;
+    }
+    .image{
+        flex-basis: 10%;
+        padding-top: 40px;
+    }
+    .image img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    
+}

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(125, 122, 122);
+}
+
+.login{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 65%;
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border: 2px black solid;
+}
+.login h1{
+    color: blue;
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+.login label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.login input{
+    padding: 10px;
+    width: 80%;
+    margin: 5px;
+}
+.login p a{
+    position: relative;
+    top: 8px;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.login p a:hover{
+    color: rgb(34, 100, 207);
+}
+.footer p,a{
+    display: inline;
+}
+.footer a{
+    color: red;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Registration Style*/
+.Registration{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 88%;
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+/* demo*/
+.Registration h1{
+    color: blue;
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+.Registration label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.Registration input{
+    padding: 10px;
+    width: 80%;
+    margin: 5px;
+}
+.Registration p a{
+    position: relative;
+    top: 8px;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.Registration p a:hover{
+    color: rgb(34, 100, 207);
+}
+.footer p,a{
+    display: inline;
+}
+.footer a{
+    color: red;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Login button styling*/
+#login button{
+    background-color: rgb(48, 105, 196);
+    color: white;
+    padding: 15px;
+    width: 90%;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    border: none;
+    margin-top: 40px;
+}
+#login button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.backbtn2{
+    margin-right: 80%;
+    margin-top: 6%;
+}
+.backbtn2 button{
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.backbtn2 button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+/* Registration btn styling*/
+.register-btn{
+    padding-top: 40px;
+    margin-left: 20%;
+}
+.register-btn button{
+    background-color: rgb(58, 58, 225);
+    color: white;
+    padding: 15px 40px;
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.register-btn button:hover{
+    background-color: aqua;
+    color: black;
+}
+.backbtn1{
+    padding-top: 30px;
+}
+.backbtn1 button{
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer; 
+    border-radius: 10px;
+}
+.backbtn1 button:hover{
+    background-color: blue;
+}
+@media screen and (max-width:477px){
+    .login{
+        width: 78%;
+        height: fit-content;
+        position: absolute;
+        left: 5%;
+        padding: 20px;
+        transition: 2s;
+        border: 2px solid black;
+    }
+    .Registration {
+        background-color: rgb(143, 202, 202);
+        width: 78%;
+        height: fit-content;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 10%;
+        padding: 20px 20px;
+        border: 2px solid black;
+    }
+    .register-btn button {
+        padding: 10px 20px;
+        width: 100%;
+        position: relative;
+        right: 10%;
+    }
+    .backbtn1 button {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+    .backbtn2 button {
+        padding: 7px 16px;
+        margin-top: 1%;
+    }
+    .backbtn2{
+        padding-bottom: 20px;
+    }
+    #login button {
+        margin-top: 30px;
+    }
+
+}

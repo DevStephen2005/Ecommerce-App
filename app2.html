@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App2</title>
+    <link rel="stylesheet" href="app2.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Fashion World</h1>
+        <div class="navlinks">
+            <a href="app2.html">Home</a>
+            <a href="collection2.html">Collection</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+        <div class="sidenavbar1">
+            <div class="x-icon" onclick="closeNav()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="sidenavlinks">
+                <a href="app2.html">Home</a>
+                <a href="collection2.html">Collection</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+        <!--shop-icon-->
+        <div class="shop-icon" onclick="window.location.href='shop.html'">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+        <!--Menu-icon-->
+        <div class="menu-icon" onclick="showNav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Header-->
+    <div class="header">
+        <div class="header-des">
+            <h1>Level Up your Style</h1>
+            <p>with our stunning Collection</p>
+            <button onclick="window.location.href='shop.html'">Shop Now</button>
+        </div>
+        <div class="header-img">
+            <img src="images/fashion1.jpg" alt="fashion1">
+        </div>
+    </div>
+    <!--Service-->
+    <div class="services">
+        <div>
+            <h2>We provide best</h2>
+            <h2>Customer Experience</h2>
+        </div>
+        <div>
+            <p>We ensure that our Customer have the best shopping</p>
+        </div>
+    </div>
+    <!--Container-->
+    <div class="containers">
+        <div class="container1">
+            <i class="fa-regular fa-smile face"></i>
+            <h2>Satisfaction Guarantee</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repellendus perferendis consequatur vitae odit est dolores dignissimos similique velit eaque. Voluptatibus asperiores dolor blanditiis doloremque?
+
+            </p>
+        </div>
+
+        <div class="container1">
+            <i class="fa-regular fa-smile face"></i>
+            <h2>New Arrival Everyday</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repellendus perferendis consequatur vitae odit est dolores dignissimos similique velit eaque. Voluptatibus asperiores dolor blanditiis doloremque?
+                
+            </p>
+        </div>
+
+        <div class="container1">
+            <i class="fa-regular fa-smile face"></i>
+            <h2>Fast & Free shipping</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repellendus perferendis consequatur vitae odit est dolores dignissimos similique velit eaque. Voluptatibus asperiores dolor blanditiis doloremque?
+                
+            </p>
+        </div>
+    </div>
+    <!--Arrival-->
+    <h2 style="text-align: center;">New Arrival</h2>
+    <div class="arrivals">
+        <div class="products">
+            <div class="pro-img">
+                <img src="images/shoe2.jpg" alt="shoe">
+                <button onclick="window.location.href='shop.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/fas2.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/fas5.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/iphone2.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!--Most Wanted-->
+    <h2 id="most">Most Wanted</h2>
+    <div class="arrivals">
+        <div class="products">
+            <div class="pro-img">
+                <img src="images/redmi2.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/watch1.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/fas6.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+            <div class="pro-img">
+                <img src="images/fas4.jpg" alt="shoe">
+                <button onclick="window.location.href='collection2.html'">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <!--Newsletter-->
+    <div class="newsletter1">
+        <h2>Join our news letter</h2>
+        <p>Sign up for our newsletter to get exclusive discounts and updates</p>
+        <input type="text"> <br>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!--Footer1-->
+    <div class="footer1">
+        <h1>Fashion World</h1>
+        <p>The standard chunck of lorem used since the 1500's is reproduced below interest</p>
+        <div class="media-links1">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Fashion@2024.com</p>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+</html>

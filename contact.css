@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: gray;
+}
+.contacts{
+    background-color: rgb(132, 165, 211);
+    color: black;
+    position: fixed;
+    width: 40%;
+    height: 53%;
+    top: 20%;
+    left: 27%;
+    padding: 30px;
+}
+.contacts h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+.contacts input::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.contacts input{
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    position: relative;
+    right: 20px;
+}
+.contacts input:focus{
+    border: 2px solid black;
+}
+
+.contacts textarea{
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    right: 20px;
+    width: 90%;
+    padding: 10px;
+}
+.contacts textarea::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.send{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.send button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0000ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+.send button:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px 0;
+}
+.btn button{
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.btn button:hover{
+    background-color: aqua;
+    color: black;
+}
+@media screen and (max-width:477px){
+    .contacts{
+        height: fit-content;
+        width: 75%;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+        border: 3px solid aqua;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 20px 30px;
+    }
+    .contacts input{
+        position: relative;
+        right: 20%;
+        padding: 10px;
+        width: 95%;
+    }
+    .send{
+        margin-top: 10%;
+    }
+    .send button{
+        padding: 15px 40px;
+        cursor: pointer;
+        background-color: #0000ff;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        right: 15%;
+    }
+    .contacts textarea{
+        padding: 30px 20px;
+        position: relative;
+        right: 20%;
+    }
+    .btn{
+        margin-top: 10%;
+    }
+    .btn button{
+        padding: 7px 15px;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        right: 10%;
+        bottom: 10%;
+    }
+
+}
